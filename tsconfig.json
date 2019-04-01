@@ -1,0 +1,29 @@
+{
+    "compilerOptions": {
+        // Compilation options
+        "sourceMap": true,
+        "jsx": "react", // So we don't need babel after
+        "lib": ["dom", "es5", "es2015.promise", "es6", "es2017"],
+        "target": "es5", // Support older browser
+        "module": "esnext",  // Let webpack do the job
+        "moduleResolution": "node", // Auto get type from npm
+        "importHelpers": true,
+        // type checking option
+        "noFallthroughCasesInSwitch": true,
+        "noImplicitAny": true,
+        "noImplicitReturns": true,
+        "noUnusedLocals": true,
+        "noImplicitThis": true,
+        "allowSyntheticDefaultImports": true,
+        "strictPropertyInitialization": true,
+        "noUnusedParameters": true,
+        "strictNullChecks": true,
+        "strictFunctionTypes": true,
+        "alwaysStrict": true,
+        "esModuleInterop": true,
+        "forceConsistentCasingInFileNames": true,
+    },
+    "exclude": [
+        "node_modules"
+    ]
+}

@@ -1,0 +1,7 @@
+node_modules
+.DS_Store
+build
+public
+yarn-error.log
+react-lodable.json
+.vscode

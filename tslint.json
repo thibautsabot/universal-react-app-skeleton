@@ -1,0 +1,12 @@
+{
+    "defaultSeverity": "error",
+    "extends": [
+        "tslint:latest", "tslint-react", "tslint-config-prettier", "tslint-eslint-rules", "tslint-immutable"
+    ],
+    "rules": {
+        "no-console": {
+            "severity": "warning",
+            "options": ["debug", "info", "log"]
+        },
+    },
+}

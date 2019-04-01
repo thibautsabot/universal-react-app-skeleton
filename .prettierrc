@@ -1,0 +1,8 @@
+{
+  "printWidth": 120,
+  "trailingComm": "all",
+  "tabWidth": 4,
+  "jsxBracketSameLine": true,
+  "arrowParens": "always",
+  "parser": "typescript"
+}
